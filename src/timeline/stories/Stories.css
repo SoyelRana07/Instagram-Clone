@@ -1,0 +1,33 @@
+.stories {
+    display: flex;
+    
+    margin: 10px 40px 0px 15px;
+      
+  }
+  
+  .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .story_avatar {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ff385c;
+    padding: 2px;
+  }
+  
+  .story_username {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #262626;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 60px;
+  }
+  

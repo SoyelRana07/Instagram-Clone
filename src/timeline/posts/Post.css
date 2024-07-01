@@ -1,0 +1,41 @@
+.post{
+    width: 550px;
+    margin: 30px 40px 50px 40px;
+}
+.post_header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.post_hAuthor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+.post_hAuthor > span{
+    color: black;
+    font-size: 15px;
+}
+.post_image > img{
+    width: 100%;
+    border-radius: 6px;
+    border: 0.6px solid lightgray ;
+}
+
+.post_footericons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.posticon{
+    padding: 7px;
+    font-size: 30px;
+}
+.posticon:hover{
+    cursor: pointer;
+}
